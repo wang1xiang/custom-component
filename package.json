@@ -2,9 +2,13 @@
   "name": "custom-component",
   "version": "1.0.0",
   "main": "index.js",
+  "scripts": {
+    "createPackage": "plop component"
+  },
   "dependencies": {
     "async-validator": "^3.5.1",
-    "element-ui": "^2.4.5"
+    "element-ui": "^2.4.5",
+    "plop": "^2.7.4"
   },
   "devDependencies": {
     "babel-plugin-component": "^1.1.1",
